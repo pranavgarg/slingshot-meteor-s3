@@ -1,0 +1,8 @@
+{ "server":
+  {
+    "MY_BUCKET": "YOUR_AWS_BUCKET",
+    "AWS_ACCESS_KEY": "YOUR_AWS_KEY",
+    "AWS_SECRET_KEY": "YOUR_AWS_SECRET",
+    "MAX_SIZE": FILE_SIZE_BYTES
+  }
+}

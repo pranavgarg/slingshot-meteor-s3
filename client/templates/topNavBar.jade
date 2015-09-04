@@ -1,0 +1,13 @@
+template(name="topNavBar")
+  .container-fluid
+    .navbar.navbar-default(role="navigation")
+      .navbar-header
+        a.navbar-brand(href="/") S3 Multi-image Slingshot Demo
+        button.navbar-toggle.collapsed(data-toggle="collapse", data-target=".navbar-collapse" type="button")
+          span.sr-only Toggle Navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+      .navbar-collapse.collapse
+        ul.nav.navbar-nav.navbar-right
+          +loginButtons

@@ -1,0 +1,16 @@
+template(name="showPictures")
+  .show-pictures.padding-top
+    each upload_images
+      +showPicture
+
+
+template(name="showPicture")
+  .row
+    .col-md-4.col-md-offset-1
+      a(href="#" class="thumbnail")
+        img(src="{{url}}" alt="preview")
+      .row
+        .progress
+          .progress-bar(role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: {{progress}}%;")
+          label {{progress}}% Complete
+
